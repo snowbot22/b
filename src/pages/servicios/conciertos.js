@@ -4,7 +4,7 @@ import CateringLogo from '../../assets/icons/catering-logo.webp'
 import ContactButtons from '../../components/ContactButtons'
 import Layout from '../../components/Layout'
 import ServicesTemplate from '../../components/ServicesTemplate'
-import Stock5 from '../../assets/images/stock--5.jpg'
+import Stock3 from '../../assets/images/stock--3.jpg'
 
 function conciertos() {
 
@@ -32,7 +32,7 @@ function conciertos() {
   return (
     <Layout>
         <ServicesTemplate
-            image={Stock5}
+            image={Stock3}
             logo={CateringLogo}
             services={list}
             description="Conciertos"
