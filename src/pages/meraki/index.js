@@ -6,8 +6,11 @@ import CateringLogo from '../../assets/icons/catering-logo.webp'
 import ContactButtons from '../../components/ContactButtons'
 import Layout from '../../components/Layout'
 import ServicesTemplate from '../../components/ServicesTemplate'
-import Stock3 from '../../assets/images/stock--3.jpg'
-import Stock4 from '../../assets/images/stock--4.jpg'
+import Stock9 from '../../assets/images/stock--9.jpg'
+import Stock10 from '../../assets/images/stock--10.jpg'
+import Stock11 from '../../assets/images/stock--11.jpg'
+import Stock12 from '../../assets/images/stock--12.jpg'
+import Stock13 from '../../assets/images/stock--13.jpg'
 
 function index() {
 
@@ -33,7 +36,7 @@ function index() {
 
   return (
     <Layout>
-         <ServicesTemplate image={Stock3} logo={CateringLogo} services={list} />
+         <ServicesTemplate image={Stock11} logo={CateringLogo} services={list} />
         <article className='article--2'>
           <p className='p--1'>
             En The Catering Co. nos especializamos en la organización de eventos sociales y corporativos,
@@ -44,24 +47,24 @@ function index() {
         </article>
         <article className='article--3'>
           <ArticleBlack 
-            title="Eventos Sociales"
-            text="Disfruta de tus celebraciones privadas sin preocuparte por nada. Nosotros nos encargamos de todo para que tú y tus invitados disfruten de una experiencia inolvidable."
-            image={Stock4}
+            title="Meraki Eventos Sociales"
+            text="Locaciones exluclusivas, catering de primer nivel y organización de eventos. Todo lo que necesitas para que tu evento sea todo un éxito."
+            image={Stock9}
           />
           <ArticleWhite
-            title="Eventos Corporativos"
-            text="Impresiona a tus clientes y colaboradores con eventos corporativos de primer nivel. Nosotros nos encargamos de la organización y producción de tu evento para que tú solo te preocupes por disfrutarlo."
-            image={Stock4}
+            title="Meraki Eventos Corporativos"
+            text="Relajate y disfruta de tu evento. Nosotros nos encargamos de cada detalle para que sea todo un éxito."
+            image={Stock10}
           />
           <ArticleBlack
-            title="Conciertos"
-            text="Organiza conciertos y festivales de primer nivel con nosotros. Contamos con un equipo de profesionales que se encargan de cada detalle para que tu evento sea todo un éxito."
-            image={Stock4}
+            title="Meraki Brunch"
+            text="Disfruta de un delicioso brunch con tus amigos y familiares. Contamos con una amplia variedad de platillos para que disfrutes de un delicioso brunch."
+            image={Stock12}
           />
           <ArticleWhite
-            title="Quintas Recomendadas"
-            text="Contamos con una amplia variedad de quintas para que elijas la que más se adapte a tus necesidades. Todas nuestras quintas cuentan con los servicios de catering y organización de eventos de The Catering Co."
-            image={Stock4}
+            title="Locaciones Exclusivas"
+            text="Ubicadas en Cumbaya y El Valle de los Chillos, nuestras locaciones son el lugar perfecto para tu evento."
+            image={Stock13}
           />
 
         </article>

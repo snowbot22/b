@@ -70,7 +70,7 @@ const Header = () => {
                             <Link className='link--reset--white' to='/servicios/eventosCorporativos'>Eventos Corporativos</Link>
                         </li>
                         <li>
-                            <Link className='link--reset--white' to='/servicios/concieros'>Conciertos</Link>
+                            <Link className='link--reset--white' to='/servicios/conciertos'>Conciertos</Link>
                         </li>
                         <li>
                             <Link className='link--reset--white' to='/servicios/quintas'>Quintas Recomendadas</Link>

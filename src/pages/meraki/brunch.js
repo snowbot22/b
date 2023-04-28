@@ -35,7 +35,7 @@ function brunch() {
             image={Stock5}
             logo={CateringLogo}
             services={list}
-            description="Meraki Brunch"
+            description="Meraki Brunch-"
         />
     </Layout>
   )

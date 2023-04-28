@@ -8,6 +8,9 @@ import Layout from '../../components/Layout'
 import ServicesTemplate from '../../components/ServicesTemplate'
 import Stock3 from '../../assets/images/stock--3.jpg'
 import Stock4 from '../../assets/images/stock--4.jpg'
+import Stock6 from '../../assets/images/stock--6.jpg'
+import Stock7 from '../../assets/images/stock--7.jpg'
+import Stock8 from '../../assets/images/stock--8.jpg'
 
 function index() {
 
@@ -51,17 +54,17 @@ function index() {
           <ArticleWhite
             title="Eventos Corporativos"
             text="Impresiona a tus clientes y colaboradores con eventos corporativos de primer nivel. Nosotros nos encargamos de la organización y producción de tu evento para que tú solo te preocupes por disfrutarlo."
-            image={Stock4}
+            image={Stock6}
           />
           <ArticleBlack
             title="Conciertos"
             text="Organiza conciertos y festivales de primer nivel con nosotros. Contamos con un equipo de profesionales que se encargan de cada detalle para que tu evento sea todo un éxito."
-            image={Stock4}
+            image={Stock7}
           />
           <ArticleWhite
             title="Quintas Recomendadas"
             text="Contamos con una amplia variedad de quintas para que elijas la que más se adapte a tus necesidades. Todas nuestras quintas cuentan con los servicios de catering y organización de eventos de The Catering Co."
-            image={Stock4}
+            image={Stock8}
           />
 
         </article>
